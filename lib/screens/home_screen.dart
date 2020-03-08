@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shopapp_tut/screens/navigation_screen.dart';
 import 'package:shopapp_tut/widgets/categories_list.dart';
-import 'package:shopapp_tut/widgets/products.dart';
+import 'package:shopapp_tut/widgets/products_grid.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
 class HomeScreen extends StatefulWidget {
