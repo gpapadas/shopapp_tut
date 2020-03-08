@@ -24,24 +24,10 @@ class CategoryTile extends StatelessWidget {
           ),
         ),
         onTap: () {
-          print('list tile tap!');
+          //TODO: Add onTap functionality
+          print('list tile tapped!');
         },
       ),
     );
-    // return Padding(
-    //   padding: EdgeInsets.all(2.0),
-    //   child: InkWell(
-    //     onTap: () {
-    //       print('inkwell tap!');
-    //     },
-    //     child: Container(
-    //       width: 100.0,
-    //               child: ListTile(
-    //         title: Image.asset(imageLocation),
-    //         subtitle: Text(imageCaption),
-    //       ),
-    //     ),
-    //   ),
-    // );
   }
 }

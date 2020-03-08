@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shopapp_tut/screens/navigation_screen.dart';
 import 'package:shopapp_tut/widgets/categories_list.dart';
+import 'package:shopapp_tut/widgets/products.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -64,6 +65,14 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Text('Categories'),
         ),
         CategoriesList(),
+        Padding(
+          padding: EdgeInsets.all(20.0),
+          child: Text('Recent products'),
+        ),
+        Container(
+          height: 320.0,
+          child: Products(),
+        ),
       ]),
     );
   }
